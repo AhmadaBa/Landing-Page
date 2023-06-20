@@ -51,3 +51,32 @@ body{
    
 
 }
+
+.Top-FlexBox{
+    display: flex;
+    /* border: 5px solid black; */
+    height: 500px;
+    background-color: #1f2937;  
+
+    align-items: center;
+}
+
+.Top-FlexBox div{
+    color: #e5e7eb;
+    font-size: 18px;
+    border: 5px solid black;
+
+}
+
+.Top-FlexBox .Heading-text{
+    margin-top: -80px;
+    margin-left: 700px;
+}
+
+.Top-FlexBox .smaller-text{
+    margin-left: -130px;
+    margin-top: 30px;
+}
+
+.Top-FlexBox .image{    margin-left: 500px;
+}
