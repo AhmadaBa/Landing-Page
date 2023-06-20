@@ -78,5 +78,33 @@ body{
     margin-top: 30px;
 }
 
-.Top-FlexBox .image{    margin-left: 500px;
+.Top-FlexBox .image{    
+    margin-left: 500px;
+}
+
+.middle-heading{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.image-flexbox{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.images{
+    border: 5px solid black;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    align-self: center;
+    vertical-align: center;
+    line-height: 150px;
 }
