@@ -89,7 +89,7 @@ body{
     justify-content: center;
 }
 
-.image-flexbox{
+.box-flexbox{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -99,12 +99,24 @@ body{
     justify-content:space-evenly;
 }
 
-.images{
+.box{
+    display: flex;
+    flex-direction: column;
     border: 5px solid black;
     height: 400px;
     width: 400px;
-    text-align: center;
+}
+
+.box img{
+    border: 5px solid black;
+    height: 200px;
+    width: 200px;
+
+    margin-top: 40px;
+    margin-left: 95px;
+}
+
+.box text{
+    margin-top: 30px;
     align-self: center;
-    vertical-align: center;
-    line-height: 150px;
 }
