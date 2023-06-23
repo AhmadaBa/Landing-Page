@@ -120,3 +120,29 @@ body{
     margin-top: 30px;
     align-self: center;
 }
+
+
+.quote-box{
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+
+.quote-box .quote{
+    font-size: 36px;
+    color: #1F2937;
+
+    width: 900px;
+    height: auto;
+
+    margin-left: 50px;
+
+}
+
+.quote-box .Auther{
+    margin-left: 900px;
+}
