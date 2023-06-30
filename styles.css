@@ -159,7 +159,9 @@ body{
 .action-flex .action-item{
     display: flex;
     flex-direction: column;
-    background-color: lightblue;
+    background-color: #3882F6;
+    color:white;
+    font-size: 25px;
 
     width:1200px;
     height: 200px;
