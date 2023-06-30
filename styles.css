@@ -146,3 +146,37 @@ body{
 .quote-box .Auther{
     margin-left: 900px;
 }
+
+
+.action-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 400px;
+}
+
+.action-flex .action-item{
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+
+    width:1200px;
+    height: 200px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.action-item .button{
+    margin-top: -30px;
+    margin-left: 700px;
+}
+
+.action-item div{
+    margin-right: 300px;
+}
+
+.action-item .heading{
+    margin-top: 40px;
+}
